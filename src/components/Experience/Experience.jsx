@@ -18,8 +18,8 @@ export const Experience = () => {
   return (
     <Box sx={styles.experience}>
         <Box sx={styles.wrapper}>
-            <Typography variant='h2'>profesionall experience</Typography>
-            <Typography variant='body1' sx={{textTransform:'capitaleze', margin:'25px 0'}}>
+            <Typography variant='h2' sx={{textTransform:'capitalize'}}>profesionall experience</Typography>
+            <Typography variant='body1' sx={{textTransform:'capitalize', margin:'25px 0'}}>
                 professional design agency to provide solutions
             </Typography>
             <Box sx={styles.links}>

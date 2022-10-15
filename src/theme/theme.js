@@ -47,6 +47,10 @@ const theme =
                 fontWeight: 500
             },
         }
+    },
+
+    components:{
+        
     }
 })
 export default theme

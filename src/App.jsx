@@ -1,4 +1,5 @@
 import { Box } from '@mui/material'
+import { ContactUs } from './components/ContactUs/ContactUs'
 
 import { CreativeDesign } from './components/CreativeDesign/CreativeDesign'
 import { Experience } from './components/Experience/Experience'
@@ -11,6 +12,7 @@ export const App = () => {
         <Hero/>
         <CreativeDesign/>
         <Experience/>
+        <ContactUs/>
     </Box>
   )
 }
